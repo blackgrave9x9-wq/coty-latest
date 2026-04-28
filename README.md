@@ -1,2 +1,0 @@
-# coty-latest
-AI
