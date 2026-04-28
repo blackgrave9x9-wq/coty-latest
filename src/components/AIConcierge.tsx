@@ -77,7 +77,7 @@ export default function AIConcierge({ user, lang, onAddToCart, onShowRegistratio
       10. Avoid any conversational filler. Be like a professional concierge.
       11. If the user wants to see the registration form, use the 'showRegistrationForm' tool.`;
 
-      const response = await fetch('/api/ai-concierge', {
+      const response = await fetch('https://api.openai.com/v1/responses', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
