@@ -81,7 +81,7 @@ export default function AIConcierge({ user, lang, onAddToCart, onShowRegistratio
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          model: 'gpt-4.1-mini',
+          model: 'gpt-4o-mini',
           messages: [
           ...messages.slice(1).map(m => ({
             role: m.role,
